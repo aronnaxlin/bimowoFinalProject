@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./source/iconfont/ailogo/iconfont.css">
     <link rel="stylesheet" href="./css/universalNavBar.css">
     <link rel="stylesheet" href="./css/aiButton.css">
+    <link rel="stylesheet" href="./css/universal.css">
 </head>
 
 <body>
@@ -104,14 +105,21 @@
             </div>
         </div>
     </div>
-    <div class="indexBottom"><!-- 底部灰色块 -->
+    
+    <footer>
         <p>COPYRIGHT © 1998 - 2025 TENCENT. ALL RIGHTS RESERVED.
-        <br>COPYRIGHT © 2012 Riot Games,Inc. ALL RIGHTS RESERVED.</p>
-    </div>
+            <br>COPYRIGHT © 2012 Riot Games,Inc. ALL RIGHTS RESERVED.
+        </p>
+    </footer>
 
     <!-- Update: AI BUTTON -->
-    <div class="aiButton iconfont icon-youxiAIduizhanjiqiren">
+    <div class="aiButton iconfont icon-youxiAIduizhanjiqiren" id="ai-button">
     </div>
+
+    <div id="ai-assistant-container" style="display: none;">
+        <iframe src="./source/ai_assistant/lol-chat.html" id="ai-assistant" frameborder="0"></iframe>
+    </div>
+    
 </body>
 
 </html>

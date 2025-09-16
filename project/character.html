@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>英雄联盟角色介绍</title>
+  <title>英雄联盟官方网站-角色详情</title>
   <!-- Basic -->
   <link rel="stylesheet" href="./css/character.css">
   <!-- Nav Bar -->
@@ -41,7 +41,7 @@
     <div class="character-list">
       <div class="character">
         <div class="character-img">
-          <img src="./source/img/character/狂战士.png" alt="狂战士">
+          <img src="./source/img/character/olaf.png" alt="狂战士">
         </div>
         <div class="character-info">
           <h3>狂战士</h3>
@@ -53,7 +53,7 @@
       </div>
       <div class="character">
         <div class="character-img">
-          <img src="./source/img/character/德邦总管.png" alt="德邦总管">
+          <img src="./source/img/character/xinzhao.png" alt="德邦总管">
         </div>
         <div class="character-info">
           <h3>德邦总管</h3>
@@ -71,7 +71,7 @@
     <div class="character-list">
       <div class="character">
         <div class="character-img">
-          <img src="./source/img/character/流浪法师.png" alt="流浪法师">
+          <img src="./source/img/character/ryze.png" alt="流浪法师">
         </div>
         <div class="character-info">
           <h3>符文法师</h3>
@@ -83,7 +83,7 @@
       </div>
       <div class="character">
         <div class="character-img">
-          <img src="./source/img/character/机械先驱.png" alt="机械先驱">
+          <img src="./source/img/character/viktor.png" alt="机械先驱">
         </div>
         <div class="character-info">
           <h3>奥术先驱</h3>
@@ -103,7 +103,11 @@
   </footer>
 
   <!-- Update: AI BUTTON -->
-  <div class="aiButton iconfont icon-youxiAIduizhanjiqiren">
+  <div class="aiButton iconfont icon-youxiAIduizhanjiqiren" id="ai-button">
+  </div>
+
+  <div id="ai-assistant-container" style="display: none;">
+    <iframe src="./source/ai_assistant/lol-chat.html" id="ai-assistant" frameborder="0"></iframe>
   </div>
 </body>
 

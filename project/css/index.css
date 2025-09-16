@@ -130,16 +130,15 @@ h3{
 .indexB4{
     border: none;
 }
-.indexBottom{
-    width: 100%;
-    height: 60px;
-    background-color: #f2f2f2;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 10px0;
+    font-size: 14px;
 }
-.indexBottom p{
-    margin: 0 auto;
+
+footer p {
     color: gray;
     line-height: 150%;
     font-size: small;
