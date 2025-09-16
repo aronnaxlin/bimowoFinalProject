@@ -5,7 +5,7 @@ class LOLAIChat {
         // 状态变量
 
         //IMPORTANT: YOU NEED TO ENTER YOUR OWN API KEY HERE
-        LOLAIChat.apiKey = "sk-4aa6bcabc3d74b239bd8aedbd71fc867";
+        LOLAIChat.apiKey = "Input your api key here: ";
         //IMPORTANT!!
         
         LOLAIChat.baseURL = "https://dashscope.aliyuncs.com/compatible-mode/v1";
