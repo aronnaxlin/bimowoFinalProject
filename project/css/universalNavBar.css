@@ -35,23 +35,23 @@ h3 {
 }
 
 .universalNavBarContent::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* 渐变：上面是黑色半透明，往下过渡到透明 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
-  z-index: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 渐变：上面是黑色半透明，往下过渡到透明 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+    z-index: 0;
 }
 
-.universalLeft{
+.universalLeft {
     display: block;
     z-index: 1;
 }
 
-.universalLeft img{
+.universalLeft img {
     margin-top: 10px;
     margin-left: 40px;
     max-width: 150px;
