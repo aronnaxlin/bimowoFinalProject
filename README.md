@@ -38,9 +38,9 @@
    并在该样式css下标注font-family，如果有使用，要告知统筹的同学
 
    ```css
-   .indexNavBarContent{
-     font-family: BeaufortforLOL-Heavy /* 使用BeaufortforLOL-Heavy字体 */
-   }
+     .indexNavBarContent{
+       font-family: BeaufortforLOL-Heavy /* 使用BeaufortforLOL-Heavy字体 */
+     }
    ```
 
 ## 配色规范
